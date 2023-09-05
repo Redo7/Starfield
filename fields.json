@@ -353,60 +353,6 @@
         "label": "Broadcaster color #1",
         "value": "#ed1b1b"
     },
-  	"broadcasterText": {
-        "group": "Role Colors",
-        "type": "colorpicker",
-        "label": "Broadcaster text color",
-        "value": "#161414"
-    },
-    "moderatorBG": {
-          "group": "Role Colors",
-          "type": "colorpicker",
-          "label": "Moderator background color",
-          "value": "#441c1c"
-      },
-  	"moderatorText": {
-          "group": "Role Colors",
-          "type": "colorpicker",
-          "label": "Moderator text color",
-          "value": "#e9ce9f"
-      },
-    "vipBG": {
-          "group": "Role Colors",
-          "type": "colorpicker",
-          "label": "VIP background color",
-          "value": "#231c2c"
-      },
-  	"vipText": {
-          "group": "Role Colors",
-          "type": "colorpicker",
-          "label": "VIP text color",
-          "value": "#c7b9ff"
-      },
-    "subscriberBG": {
-          "group": "Role Colors",
-          "type": "colorpicker",
-          "label": "Subscriber background color",
-          "value": "#2c1c20"
-      },
-  	"subscriberText": {
-          "group": "Role Colors",
-          "type": "colorpicker",
-          "label": "Subscriber text color",
-          "value": "#fdd5dc"
-      },
-  	"regularBG": {
-          "group": "Role Colors",
-          "type": "colorpicker",
-          "label": "Regular background color",
-          "value": "#221718"
-      },
-  	"regularText": {
-          "group": "Role Colors",
-          "type": "colorpicker",
-          "label": "Regular text color",
-          "value": "#c5abb0"
-      },
     "displayBadges": {
         "group": "Badges",
         "type": "checkbox",
