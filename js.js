@@ -34,7 +34,7 @@ window.addEventListener('onWidgetLoad', function (obj) {
                     updateStatus = 'Widget is up to date';
                   	updateClass = 'success';
                 }
-                const updateNotif = $.parseHTML(`<p class="update-notif ${updateClass} animate__{{animationIn}} animate__animated">${updateStatus}</p>`);
+                const updateNotif = $.parseHTML(`<p class="update-notif ${updateClass} {{chatTheme}} animate__{{animationIn}} animate__animated">${updateStatus}</p>`);
                 $(updateNotif).appendTo('.main-container')
                 $('.update-notif').delay(5000).queue(function () { $('.update-notif').addClass(animationOut).dequeue() }).delay(1000).queue(function () {
                     $(this).remove().dequeue()
@@ -74,7 +74,7 @@ window.addEventListener('onEventReceived', function (obj) {
                         updateStatus = 'Widget is up to date';
                         updateClass = 'success';
                     }
-                    const updateNotif = $.parseHTML(`<p class="update-notif ${updateClass} animate__{{animationIn}} animate__animated">${updateStatus}</p>`);
+                    const updateNotif = $.parseHTML(`<p class="update-notif ${updateClass} {{chatTheme}} animate__{{animationIn}} animate__animated">${updateStatus}</p>`);
                     $(updateNotif).appendTo('.main-container');
                     $('.update-notif').delay(5000).queue(function () { $('.update-notif').addClass(animationOut).dequeue() }).delay(1000).queue(function () {
                         $(this).remove().dequeue()
